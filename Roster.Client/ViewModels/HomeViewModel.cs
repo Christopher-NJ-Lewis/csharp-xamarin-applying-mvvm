@@ -6,7 +6,7 @@ using Xamarin.Forms;
 
 namespace Roster.Client.ViewModels
 {
-    internal class HomeViewModel : INotifyPropertyChanged
+    public class HomeViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
